@@ -12,8 +12,8 @@ services:
             MYSQL_USER: wordpressBBDD
             MYSQL_PASSWORD: A123456a
             MYSQL_ROOT_PASSWORD: A123456a
-        volumes:
-            - ./volumenes/db:/var/lib/mysql
+#        volumes:
+#            - ./volumenes/db:/var/lib/mysql
         networks: 
             - backend
     wordpress:
